@@ -1,0 +1,13 @@
+$gray-600: rgb(245, 245, 245);
+
+@import "~bootstrap/scss/bootstrap";
+
+body {
+  min-height: 100vh;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) !important;
+  transition: 0.3s;
+}
